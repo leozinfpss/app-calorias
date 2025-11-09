@@ -1,0 +1,46 @@
+{
+  "name": "Calor.IA - Contador de Calorias",
+  "short_name": "Calor.IA",
+  "description": "Tire fotos de pratos brasileiros e descubra quantas calorias tem",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "categories": ["health", "food", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/delicious-brazilian-food-on-white-plate.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tirar foto",
+      "short_name": "Câmera",
+      "description": "Abrir câmera para analisar prato",
+      "url": "/app",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
